@@ -6,10 +6,10 @@ import { CommonModule } from '@angular/common';
     standalone: true,
     imports: [CommonModule],
     template: `
-    <section>
-        <h1>SAKURA RAMEN</h1>
-        <h2>BEST RAMEN IN TOWN</h2>
-    </section>
+        <section>
+            <h1 class="fontRaleway">SAKURA RAMEN</h1>
+            <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
+        </section>
     `,
     styleUrls: ['./landingPage.component.scss'],
 })
