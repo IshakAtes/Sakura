@@ -1,0 +1,46 @@
+nav {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >a {
+            padding-left: 50px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            &:hover {
+                color: red;
+            }
+        }
+        >.phone-btn {
+            margin-left: 50px;
+            display: flex;
+            background-color: red;
+            border: 1px solid #fff;
+            border-radius: 6px;
+            padding: 10px 20px 10px 20px;
+            &:hover {
+                box-shadow: 1px 1px 3px 3px #FFF;
+                background-color: rgb(228, 80, 80);
+            }
+            >img {
+                width: 20px;
+                height: 20px;
+                margin-right: 4px;
+            }
+            >a {
+                text-decoration: none;
+                color:#fff;
+            }
+        }
+    }
+}

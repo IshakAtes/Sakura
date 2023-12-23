@@ -2,6 +2,10 @@ h1, h2{
     color: whitesmoke;
 }
 
+app-navbar{
+    width: 100%;
+}
+
 h1{
     font-size: 64px;
 }
@@ -20,7 +24,7 @@ section{
     width: 100%;
     // background-image: url('../../assets/img/bgr1.jpg');
     // background-image: url("./../../assets/img/bgr1.jpg");
-    background-image: url('./../../assets/img/bgr1.jpg');
+    // background-image: url('./../../assets/img/bgr1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
