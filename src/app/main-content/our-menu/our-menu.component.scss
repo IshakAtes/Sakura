@@ -12,6 +12,7 @@ section {
         z-index: -1;
         width: 100%;
         top: 150vh;
+        height: auto;
     }
     >h2 {
         padding-top: 30px;
@@ -22,8 +23,10 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
         >img {
-            width: 300px;
+            width: 240px;
             height: auto;
         }
         >div {
@@ -43,6 +46,8 @@ section {
                     >span {
                         color: rgb(88, 88, 88);
                         font-weight: bold;
+                        font-size: 20px;
+                        margin-bottom: 10px;
                     }
                 }
             }
