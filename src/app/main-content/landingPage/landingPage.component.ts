@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     template: `
         <section>
             <app-navbar></app-navbar>
+            <img src="./../../assets/img/bgr1.jpg" alt="">
             <h1 class="fontRaleway">SAKURA RAMEN</h1>
             <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
         </section>

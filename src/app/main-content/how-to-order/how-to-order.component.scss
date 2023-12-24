@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    gap: 70px;
+    >h2 {
+        font-size: 40px;
+        color: rgb(175, 18, 18);
+    }
+    >div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        >div {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+            >span {
+                margin-top: 10px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}
