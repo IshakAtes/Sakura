@@ -3,8 +3,11 @@ section {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(33, 33, 33);
-    height: 20vh;
+    height: 24vh;
     padding: 30px;
+    position: absolute;
+    top: 300vh;
+    width: -webkit-fill-available;
     >img {
         width: 240px;
         height: auto;
